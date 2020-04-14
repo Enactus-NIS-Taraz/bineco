@@ -1,0 +1,10 @@
+.block {
+  background-color: black; }
+  .block__text {
+    color: white; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
