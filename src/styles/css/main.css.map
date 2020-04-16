@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","sources":["main.scss","test.scss"],"sourcesContent":["@import './test.scss'",".block {\r\n    color: red;\r\n\r\n    &__text {\r\n        font-size: 25px;\r\n        color: blue;\r\n    }\r\n}"],"names":[],"mappings":"ACAA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,GAAG,GAMb;EAJI,AAAD,YAAO,CAAC;IACJ,SAAS,EAAE,IAAI;IACf,KAAK,EAAE,IAAI,GACd"}
