@@ -1,0 +1,22 @@
+.logo {
+    text-decoration: none;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 30px;
+        height: auto;
+    }
+
+    &__text {
+        font-size: 35px;
+        color: $color-1;
+    }
+}
