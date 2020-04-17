@@ -39,6 +39,7 @@
     }
 
     &__image-container {
+        width: 45%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -47,6 +48,6 @@
     }
 
     &__image {
-        height: 60%;
+        width: 100%;
     }
 }
