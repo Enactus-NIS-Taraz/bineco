@@ -100,6 +100,21 @@
   justify-content: space-between;
   margin-top: 10vh; }
 
+.instruction {
+  padding: 20vh 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff3d0; }
+  .instruction__heading {
+    margin-bottom: 10vh;
+    font-size: 50px;
+    color: #3C3C36;
+    text-decoration-line: underline; }
+
 /* footer main styles start */
 .footer {
   width: 100%;
@@ -322,6 +337,39 @@
 .item:hover .advantages__item_back {
   display: block;
   cursor: pointer; }
+
+.step {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .step__number {
+    font-size: 250px;
+    color: #6BE0BF; }
+  .step__description {
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+    .step__description-line {
+      width: 55vw;
+      height: 7px;
+      background-color: #6BE0BF; }
+    .step__description-main {
+      margin-bottom: 2vh;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 48px;
+      color: #3C3C36; }
+    .step__description-extra {
+      margin-top: 2vh;
+      max-width: 50vw;
+      font-size: 29px;
+      font-weight: normal;
+      color: #3C3C36; }
 
 /* components styles end */
 
