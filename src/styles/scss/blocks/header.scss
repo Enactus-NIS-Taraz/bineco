@@ -9,7 +9,7 @@
     justify-content: space-between;
 
     &__nav-bar {
-        width: 35%;
+        width: 500px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -22,10 +22,12 @@
         font-size: 20px;
         color: $color-1;
         text-decoration: none;
+        opacity: 0.8;
         transition: 0.1s ease-in-out;
 
         &:hover {
             border-bottom: 2px solid $color-1;
+            opacity: 1;
         }
     }
 }

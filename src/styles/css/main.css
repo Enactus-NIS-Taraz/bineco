@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: space-between; }
   .header__nav-bar {
-    width: 35%;
+    width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,9 +45,11 @@
     font-size: 20px;
     color: #3C3C36;
     text-decoration: none;
+    opacity: 0.8;
     transition: 0.1s ease-in-out; }
     .header__nav-component:hover {
-      border-bottom: 2px solid #3C3C36; }
+      border-bottom: 2px solid #3C3C36;
+      opacity: 1; }
 
 .welcome {
   padding: 0 10%;
@@ -57,7 +59,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-image: url("../../assets/images/elipses.png");
+  background-repeat: no-repeat;
+  background-position: 15% 10%; }
   .welcome__card-container {
     width: 55%;
     height: 100%;
@@ -68,10 +73,7 @@
   .welcome__card {
     padding-left: 10%;
     width: 100%;
-    height: 100%;
-    background-image: url("../../assets/images/elipses.png");
-    background-repeat: no-repeat;
-    background-size: contain; }
+    height: 100%; }
   .welcome__card-line {
     margin-bottom: 3vh;
     width: 150px;
@@ -107,8 +109,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  background-color: #fff3d0; }
+  justify-content: space-between; }
   .instruction__heading {
     margin-bottom: 10vh;
     font-size: 50px;
@@ -117,6 +118,8 @@
 
 /* footer main styles start */
 .footer {
+  padding: 4vh 5vw;
+  box-sizing: border-box;
   width: 100%;
   height: auto;
   display: flex;
@@ -128,8 +131,7 @@
 /* footer main styles end */
 /* footer logo styles start */
 .footer__logo-link {
-  margin-top: 80px;
-  margin-left: 5%;
+  margin-left: 10%;
   text-decoration-line: none; }
 
 .footer__logo-image {
@@ -169,7 +171,7 @@
 
 .footer__icons-container {
   margin-top: 20px;
-  width: 150%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -179,7 +181,7 @@
   color: white; }
 
 .footer__icon {
-  font-size: 70px;
+  font-size: 40px;
   transition: 0.2s ease-in-out; }
 
 .footer__icon:hover {
@@ -189,7 +191,7 @@
   height: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between; }
 
 .footer__nav-link {
@@ -206,11 +208,12 @@
   height: 70%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
   text-align: right; }
 
 .footer__contact-element {
+  text-align: left;
   font-size: 20px;
   color: #A1A3A6; }
 
@@ -218,38 +221,30 @@
 /* footer corporation info styles start */
 .footer__corporation {
   margin: auto;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 30px;
   width: 80%;
   font-size: 18px;
   color: #A1A3A6; }
 
 /* footer corporation info styles end */
 .online-tracking {
+  margin-top: 10vh;
   padding: 0 10%;
   box-sizing: border-box;
   width: 100%;
-  height: 85vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   text-align: center; }
   .online-tracking__image {
-    width: 40%; }
+    width: 35%; }
   .online-tracking__pic {
     width: 100%;
     height: 100%; }
   .online-tracking__card {
-    width: 565px;
+    width: 50%;
     align-items: center !important; }
-
-.card__heading {
-  font-size: 40px !important;
-  border-bottom: 1px solid #3C3C36; }
-
-.card__text {
-  font-size: 25px !important; }
 
 /* blocks styles end */
 /* components styles start */
@@ -276,7 +271,7 @@
   justify-content: center; }
   .card__heading {
     margin-bottom: 4vh;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
     line-height: 51px;
     color: #3C3C36; }
@@ -291,10 +286,10 @@
 .button {
   padding: 10px 25px;
   font-size: 25px;
-  font-weight: normal;
-  color: #3C3C36;
+  font-weight: 600;
+  color: white;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: #6BE0BF;
   cursor: pointer;
   transition: 0.2s ease-in-out; }
@@ -383,19 +378,20 @@
     align-items: flex-start;
     justify-content: center; }
     .step__description-line {
-      width: 55vw;
+      width: 40vw;
       height: 7px;
       background-color: #6BE0BF; }
     .step__description-main {
       margin-bottom: 2vh;
-      font-size: 60px;
+      max-width: 40vw;
+      font-size: 40px;
       font-weight: 600;
       line-height: 48px;
       color: #3C3C36; }
     .step__description-extra {
       margin-top: 2vh;
-      max-width: 50vw;
-      font-size: 29px;
+      max-width: 40vw;
+      font-size: 20px;
       font-weight: normal;
       color: #3C3C36; }
 
