@@ -237,7 +237,7 @@
   text-align: center; }
   .online-tracking__image {
     border: 1px solid black;
-    height: 60vh; }
+    width: 40%; }
   .online-tracking__pic {
     width: 100%;
     height: 100%; }
