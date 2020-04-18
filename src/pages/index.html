@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/css/main.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/ico">
     <script src="https://kit.fontawesome.com/d125a684cc.js" crossorigin="anonymous"></script>
-    <title>BinEco</title>
+    <title>BinEco - Автоматизированная Экология</title>
 </head>
 <body>
 
@@ -27,12 +28,12 @@
 
 
     <section class="welcome">
-        <div class="welcome__card-container">
-            <div class="welcome__card card">
-                <h1 class="card__heading welcome__card-heading">Автоматизированная<br> экология</h1>
-                <p class="card__text welcome__card-text">BinEco позволяет собирать данные,<br> <span class="welcome__text-bold">анализировать</span> 
+        <div class="welcome__text-block-container">
+            <div class="welcome__text-block text-block">
+                <h1 class="text-block__heading welcome__text-block-heading">Автоматизированная<br> экология</h1>
+                <p class="text-block__text welcome__text-block-text">BinEco позволяет собирать данные,<br> <span class="welcome__text-bold">анализировать</span> 
                 тенденции и <span class="welcome__text-bold">интегрировать</span><br> сложные технологии в процесс сбора <br>мусора</p>
-                <a href="#" class="card__button button">Подробнее</a>
+                <a href="#" class="text-block__button button">Подробнее</a>
             </div>
         </div>
         <div class="welcome__image-container">
@@ -41,68 +42,53 @@
     </section>
 
 
-    <section class="advantages">
-        <div class="advantages__container">
-            <div class="advantages__item item">  
-                <div class="item__image">
-                    <img src="../assets/images/implementation.png" alt="implementation">
-                </div>
-                <div class="item__text">
-                    <div class="item__title">Простота в внедрении</div>
-                    <div class="item__line"></div>
-                </div>
-                <div class="item__back">
-                    <div class="item__text_back">
-                        <div class="item__title">Простота в внедрении</div>
-                        <div class="item__line_back"></div>
-                    </div>
-                    <div class="item__paragraph">Идейные соображения высшего порядка играет важную роль в формировании направлений прогрессивного развития.</div>
-                </div>
-            </div>
-            <div class="advantages__item item">
-                <div class="item__image">
-                    <img src="../assets/images/accessability.png" alt="accessability">
-                </div>
-                <div class="item__text">
-                    <div class="item__title">Доступность</div>
-                    <div class="item__line"></div>
-                </div>
-                <div class="item__back">
-                    <div class="item__text_back">
-                        <div class="item__title">Доступность</div>
-                        <div class="item__line_back"></div>
-                    </div>
-                    <div class="item__paragraph">Идейные соображения высшего порядка играет важную роль в формировании направлений прогрессивного развития.</div>
-                </div>
-            </div>
-            <div class="advantages__item item">    
-                <div class="item__image">
-                    <img src="../assets/images/eco.png" alt="eco">
-                </div>
-                <div class="item__text">
-                    <div class="item__title">Экологичность</div>
-                    <div class="item__line"></div>
-                </div>
-                <div class="item__back">
-                    <div class="item__text_back">
-                        <div class="item__title">Экологичность</div>
-                        <div class="item__line_back"></div>
-                    </div>
-                    <div class="item__paragraph">Идейные соображения высшего порядка играет важную роль в формировании направлений прогрессивного развития.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <section class="online-tracking">
         <div class="online-tracking__image">
             <img class="online-tracking__pic" src="../assets/images/online-tracking.png" alt="online-tracking">
         </div>
-        <div class="online-tracking__card card">
-            <h1 class="card__heading">Отслеживай с нами online</h1>
-            <p class="card__text">Система BinEco Online позволяет в реальном времени наблюдать за изменениями данных и с легкостью интегрировать сторонние сервисы. Повседневная практика показывает, что начало работы по формированию <br> позиции требуют определения.</p>
-            <a href="#" class="card__button button">BinEco Online</a>
+        <div class="online-tracking__text-block text-block">
+            <h1 class="text-block__heading">Отслеживай с нами online</h1>
+            <p class="text-block__text">Система BinEco Online позволяет в реальном времени наблюдать за изменениями данных и с легкостью интегрировать сторонние сервисы. Повседневная практика показывает, что начало работы по формированию <br> позиции требуют определения.</p>
+            <a href="#" class="text-block__button button">BinEco Online</a>
+        </div>
+    </section>
+
+
+    <section class="advantages">
+        <div class="advantages__container">
+            <div class="advantages-card card">
+                <div class="card__preview card__part">
+                    <!-- <img src="../assets/images/implementation.png" alt="Простота в внедрении" class="card__preview-image"> -->
+                    <div class="card__preview-icon"><i class="fas fa-cogs"></i></div>
+                    <h3 class="card__preview-heading">Простота в внедрении</h3>
+                </div>
+                <div class="card__info card__part">
+                    <p class="card__info-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut illo nobis similique magnam, architecto harum dicta, cum ducimus quo deleniti quae quis quia veritatis at ad nam ullam? Facilis, tempore?</p>
+                    <a href="#" class="card__button button">Подробнее</a>
+                </div>
+            </div>
+            <div class="advantages-card card">
+                <div class="card__preview card__part">
+                    <!-- <img src="../assets/images/accessability.png" alt="Простота в внедрении" class="card__preview-image"> -->
+                    <div class="card__preview-icon"><i class="fas fa-tags"></i></div>
+                    <h3 class="card__preview-heading">Доступность</h3>
+                </div>
+                <div class="card__info card__part">
+                    <p class="card__info-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, deserunt blanditiis sed voluptatibus harum molestiae asperiores tempore, illum ratione at labore provident eum quis minus quod? Eum inventore quas atque.</p>
+                    <a href="#" class="card__button button">Подробнее</a>
+                </div>
+            </div>
+            <div class="advantages-card card">
+                <div class="card__preview card__part">
+                    <!-- <img src="../assets/images/eco.png" alt="Простота в внедрении" class="card__preview-image"> -->
+                    <div class="card__preview-icon"><i class="fas fa-seedling"></i></div>
+                    <h3 class="card__preview-heading">Экологичность</h3>
+                </div>
+                <div class="card__info card__part">
+                    <p class="card__info-description">Lorem ipsum, dolor sit amet elit. Magnam facere consequuntur maiores tempora, architecto ab consectetur totam aperiam inventore quis provident quod, odit dignissimos voluptatibus eum explicabo officiis debitis sapiente.</p>
+                    <a href="#" class="card__button button">Подробнее</a>
+                </div>
+            </div>
         </div>
     </section>
 
