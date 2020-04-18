@@ -18,12 +18,19 @@
                 <div class="logo__text">BinEco</div>
             </div>    
         </a>
-        <nav class="header__nav-bar">
-            <a href="#" class="header__nav-component">Главная</a>
-            <a href="#" class="header__nav-component">О проекте</a>
-            <a href="#" class="header__nav-component">Цена</a>
-            <a href="#" class="header__nav-component">Наша команда</a>
-        </nav>
+        <span id="trigger" class="trigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <div id="header__container" class="header__container">
+            <nav id="header__nav-bar" class="header__nav-bar">
+                <a href="#" class="header__nav-component">Главная</a>
+                <a href="#" class="header__nav-component">О проекте</a>
+                <a href="#" class="header__nav-component">Цена</a>
+                <a href="#" class="header__nav-component">Наша команда</a>
+            </nav>
+        </div>
     </header>
 
 
@@ -58,7 +65,6 @@
         <div class="advantages__container">
             <div class="advantages-card card">
                 <div class="card__preview card__part">
-                    <!-- <img src="../assets/images/implementation.png" alt="Простота в внедрении" class="card__preview-image"> -->
                     <div class="card__preview-icon"><i class="fas fa-cogs"></i></div>
                     <h3 class="card__preview-heading">Простота в внедрении</h3>
                 </div>
@@ -69,7 +75,6 @@
             </div>
             <div class="advantages-card card">
                 <div class="card__preview card__part">
-                    <!-- <img src="../assets/images/accessability.png" alt="Простота в внедрении" class="card__preview-image"> -->
                     <div class="card__preview-icon"><i class="fas fa-tags"></i></div>
                     <h3 class="card__preview-heading">Доступность</h3>
                 </div>
@@ -80,7 +85,6 @@
             </div>
             <div class="advantages-card card">
                 <div class="card__preview card__part">
-                    <!-- <img src="../assets/images/eco.png" alt="Простота в внедрении" class="card__preview-image"> -->
                     <div class="card__preview-icon"><i class="fas fa-seedling"></i></div>
                     <h3 class="card__preview-heading">Экологичность</h3>
                 </div>
@@ -160,5 +164,6 @@
     </section>
 
 
+    <script src="../scripts/burger-menu.js"></script>
 </body>
 </html>

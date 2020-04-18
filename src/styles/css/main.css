@@ -39,6 +39,59 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center; }
+  @media (max-width: 900px) {
+    .header__container {
+      display: none; }
+    .header .trigger {
+      position: fixed;
+      right: 20px;
+      display: inline-block;
+      margin: 3px;
+      cursor: pointer;
+      background-color: #e0e5ea;
+      padding: 5px 7px;
+      border-radius: 10px;
+      z-index: 3; }
+    .header .trigger i {
+      display: block;
+      width: 30px;
+      height: 6px;
+      margin: 4px auto;
+      background: #222; }
+    .header__container {
+      right: -200px;
+      width: 200px;
+      display: block;
+      position: fixed;
+      height: 100vh;
+      top: 0;
+      background-color: #3C3C36;
+      z-index: 3; }
+    .header .show {
+      right: 0;
+      -moz-transition: all 300ms;
+      -webkit-transition: all 300ms;
+      transition: all 300ms; }
+    .header .header__nav-bar {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      width: 150px;
+      margin-right: auto;
+      margin-left: auto;
+      color: #ffffff;
+      margin-top: 25px;
+      align-items: flex-start; }
+    .header .trigger-move {
+      right: 210px;
+      -moz-transition: all 300ms;
+      -webkit-transition: all 300ms;
+      transition: all 300ms; }
+    .header .header__nav-component {
+      color: #ffffff; }
+      .header .header__nav-component:hover {
+        border-bottom: 2px solid #ffffff;
+        opacity: 1; } }
   .header__nav-component {
     padding-bottom: 3px;
     box-sizing: border-box;
