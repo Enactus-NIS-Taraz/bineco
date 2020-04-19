@@ -12,4 +12,9 @@
     &:hover {
         background-color: $color-3;
     }
+
+    @media(max-width: 1024px) {
+        padding: 20px 35px;
+        font-size: 35px;
+    }
 }

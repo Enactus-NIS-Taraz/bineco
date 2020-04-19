@@ -18,45 +18,30 @@
                 <div class="logo__text">BinEco</div>
             </div>    
         </a>
-        <span id="trigger" class="trigger">
-            <i></i>
-            <i></i>
-            <i></i>
-        </span>
+        <div id="trigger" class="trigger">
+            <i class="fas fa-bars trigger__icon trigger__icon_active" id="trigger__icon-menu"></i>
+            <i class="fas fa-times trigger__icon" id="trigger__icon-cross"></i>
+        </div>
         <div id="header__container" class="header__container">
             <nav id="header__nav-bar" class="header__nav-bar">
                 <a href="#" class="header__nav-component">Главная</a>
+                <a href="#" class="header__nav-component">Наша команда</a>
                 <a href="#" class="header__nav-component">О проекте</a>
                 <a href="#" class="header__nav-component">Цена</a>
-                <a href="#" class="header__nav-component">Наша команда</a>
             </nav>
         </div>
     </header>
 
-
+    <!-- <object type="image/svg+xml" data="../assets/images/menu-background.svg" id=’object’ class=’icon’></object> -->
     <section class="welcome">
-        <div class="welcome__text-block-container">
             <div class="welcome__text-block text-block">
                 <h1 class="text-block__heading welcome__text-block-heading">Автоматизированная<br> экология</h1>
                 <p class="text-block__text welcome__text-block-text">BinEco позволяет собирать данные,<br> <span class="welcome__text-bold">анализировать</span> 
                 тенденции и <span class="welcome__text-bold">интегрировать</span><br> сложные технологии в процесс сбора <br>мусора</p>
                 <a href="#" class="text-block__button button">Подробнее</a>
             </div>
-        </div>
         <div class="welcome__image-container">
             <img src="../assets/images/welcome__image.png" alt="Автоматизированная экология" class="welcome__image">
-        </div>
-    </section>
-
-
-    <section class="online-tracking">
-        <div class="online-tracking__image">
-            <img class="online-tracking__pic" src="../assets/images/online-tracking.png" alt="online-tracking">
-        </div>
-        <div class="online-tracking__text-block text-block">
-            <h1 class="text-block__heading">Отслеживай с нами online</h1>
-            <p class="text-block__text">Система BinEco Online позволяет в реальном времени наблюдать за изменениями данных и с легкостью интегрировать сторонние сервисы. Повседневная практика показывает, что начало работы по формированию <br> позиции требуют определения.</p>
-            <a href="#" class="text-block__button button">BinEco Online</a>
         </div>
     </section>
 
@@ -97,6 +82,18 @@
     </section>
 
 
+    <section class="online-tracking">
+        <div class="online-tracking__image-container">
+            <img class="online-tracking__image" src="../assets/images/online-tracking.png" alt="online-tracking">
+        </div>
+        <div class="online-tracking__text-block text-block">
+            <h1 class="text-block__heading">Отслеживай с нами online</h1>
+            <p class="text-block__text">Система BinEco Online позволяет в реальном времени наблюдать за изменениями данных и с легкостью интегрировать сторонние сервисы. Повседневная практика показывает, что начало работы по формированию <br> позиции требуют определения.</p>
+            <a href="#" class="text-block__button button">BinEco Online</a>
+        </div>
+    </section>
+
+
     <section class="instruction">
         <h2 class="instruction__heading">Как это работает?</h2>
         <div class="instuction__step step">
@@ -130,13 +127,15 @@
 
 
     <section class="footer">
-        <a href="#" class="footer__logo-link logo-link">
-            <div class="footer__logo logo">
-                <img src="../assets/images/logo__image.png" alt="BinEco" class="footer__logo-image logo-image">
-                <h1 class="footer__logo-text  logo-text">BinEco</h1>
-            </div>
-        </a>
         <div class="footer__info">
+            <div class="footer__logo-container">
+                <a href="#" class="footer__logo-link logo-link">
+                    <div class="footer__logo logo">
+                        <img src="../assets/images/logo__image.png" alt="BinEco" class="footer__logo-image logo-image">
+                        <h1 class="footer__logo-text  logo-text">BinEco</h1>
+                    </div>
+                </a>
+            </div>
             <div class="footer__follow">
                 <h4 class="footer__follow-heading">Следи за нами:</h4>
                 <div class="footer__icons-container">

@@ -9,21 +9,80 @@
     align-items: flex-start;
     color: white;
     background-color: #3C3C36;
+
+    &__logo-container {
+        // margin: auto;
+        width: 100%;
+    }
+
+    @media(max-width: 1024px) {
+
+        &__info {
+            margin-bottom: 100px !important;
+        }
+
+        &__logo-container {
+            margin-bottom: 50px;
+            width: 50%;
+        }
+
+        &__logo-image {
+            width: 50px !important;
+            height: 50px !important;
+            margin-top: 8px;
+        }
+
+        &__logo-text {
+            font-size: 60px !important;
+        }
+
+        &__follow {
+            margin-top: 80px;
+            margin-bottom: 50px;
+            margin-right: 100px;
+            width: 35%;
+
+            &-heading {
+                font-size: 35px !important;
+            }
+        }
+
+        &__icon {
+            font-size: 50px !important;
+        }
+
+        &__nav-link {
+            font-size: 35px !important;
+        }
+
+        &__contact-element {
+            font-size: 30px !important;
+        }
+
+        &__corporation {
+            font-size: 25px !important;
+        }
+    }
 }
 /* footer main styles end */
 
 
 /* footer logo styles start */
+
 .footer__logo-link {
     margin-left: 10%;
     text-decoration-line: none;
 }
 
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+}
+
 .footer__logo-image {
-    margin-bottom: 6px;
     margin-right: 5px;
     width: 30px;
-    height: auto;
+    height: 30px;
 }
 
 .footer__logo-text {
@@ -41,6 +100,7 @@
     height: 30vh;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,7 +117,8 @@
     font-size: 25px;
     font-weight: normal;
     line-height: 30px;
-    border-bottom: 1px solid white;
+    // text-decoration-line: underline;
+    // border-bottom: 1px solid white;
 }
 
 .footer__icons-container {
@@ -123,7 +184,7 @@
 /* footer corporation info styles start */
 .footer__corporation {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 80%;
     font-size: 18px;
     color: #A1A3A6;

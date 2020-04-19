@@ -50,4 +50,20 @@
     &__image {
         width: 100%;
     }
+
+    @media (max-width: 1024px) {
+        background-position: 30% 5%;
+
+        &__text-block {
+            width: 100%;
+            height: 100%;
+            background-image: url('../../assets/images/welcome__image.png');
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        &__image-container {
+            display: none;
+        }
+    }
 }

@@ -14,4 +14,10 @@
         color: $color-1;
         text-decoration-line: underline;
     }
+
+    @media(max-width: 1024px) {
+        &__heading {
+            font-size: 60px;
+        }
+    }
 }

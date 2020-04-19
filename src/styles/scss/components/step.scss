@@ -41,4 +41,30 @@
             color: $color-1;
         }
     }
+
+    @media(max-width: 1024px) {
+        justify-content: center;
+
+        &__description {
+            width: 60%;
+
+            &-main {
+                max-width: 100% !important;
+                font-size: 50px;
+            }
+
+            &-extra {
+                max-width: 100% !important;
+                font-size: 30px;
+            }
+
+            &-line {
+                width: 100%;
+            }
+        }
+
+        &__image {
+            display: none;
+        }
+    }
 }
