@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,2DAA2D;EAChE,WAAW,EAAE,MAAM;;;AAGvB,UAAU;EACN,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,wDAAwD;EAC7D,WAAW,EAAE,IAAI;;;AAGrB,UAAU;EACN,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,4DAA4D;EACjE,WAAW,EAAE,GAAG",
-    "sources": [
-        "Inter.scss"
-    ],
-    "names": [],
-    "file": "Inter.css"
-}
