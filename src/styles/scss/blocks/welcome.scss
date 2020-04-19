@@ -51,7 +51,7 @@
         width: 100%;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $size-1) {
         background-position: 30% 5%;
 
         &__text-block {

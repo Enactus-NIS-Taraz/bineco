@@ -15,7 +15,7 @@
         text-decoration-line: underline;
     }
 
-    @media(max-width: 1024px) {
+    @media(max-width: $size-1) {
         &__heading {
             font-size: 60px;
         }

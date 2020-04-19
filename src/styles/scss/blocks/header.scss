@@ -35,7 +35,7 @@
     display: none;
   }
 
-    @media (max-width: 1024px) {
+    @media (max-width: $size-1) {
 
       .show {
         right: 0;
@@ -93,7 +93,7 @@
         // background-color: $color-1;
         background-image: url('../../assets/images/menu-background.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         transition: 300ms;
         z-index: 3;
       }

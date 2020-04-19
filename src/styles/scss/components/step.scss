@@ -42,7 +42,7 @@
         }
     }
 
-    @media(max-width: 1024px) {
+    @media(max-width: $size-1) {
         justify-content: center;
 
         &__description {

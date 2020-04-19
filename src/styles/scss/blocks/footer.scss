@@ -15,8 +15,12 @@
         width: 100%;
     }
 
-    @media(max-width: 1024px) {
-        
+    @media(max-width: $size-1) {
+
+        &__info {
+            height: auto !important;
+        }
+
         &__logo-container {
             margin-bottom: 50px;
             width: 50%;
@@ -45,6 +49,10 @@
 
         &__icon {
             font-size: 50px !important;
+        }
+
+        &__nav-bar {
+            height: 220px !important;
         }
 
         &__nav-link {
@@ -93,7 +101,7 @@
 .footer__info {
     margin: auto;
     width: 80%;
-    // height: 30vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

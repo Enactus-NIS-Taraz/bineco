@@ -80,13 +80,13 @@
         }
     }
 
-    @media(max-width: 1024px) {
+    @media(max-width: $size-1) {
         margin-bottom: 5vh;
         width: 100%;
 
-        &:hover {
+        // &:hover {
             
-        }
+        // }
 
         &__part {
             height: 300px;
