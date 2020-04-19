@@ -16,11 +16,7 @@
     }
 
     @media(max-width: 1024px) {
-
-        &__info {
-            margin-bottom: 100px !important;
-        }
-
+        
         &__logo-container {
             margin-bottom: 50px;
             width: 50%;
@@ -97,7 +93,7 @@
 .footer__info {
     margin: auto;
     width: 80%;
-    height: 30vh;
+    // height: 30vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

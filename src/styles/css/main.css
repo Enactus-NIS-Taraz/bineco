@@ -79,12 +79,10 @@
         .header .trigger__icon_active {
           opacity: 1; }
     .header__container {
-      right: -650px;
-      width: 650px;
-      height: 740px;
+      right: -550px;
+      height: 100vh;
       display: block;
       position: fixed;
-      height: 100vh;
       top: 0;
       background-image: url("../../assets/images/menu-background.png");
       background-repeat: no-repeat;
@@ -94,8 +92,10 @@
     .header .header__nav-bar {
       margin: auto;
       margin-top: 100px;
+      padding-right: 30px;
+      box-sizing: border-box;
       height: 600px;
-      width: 500px;
+      width: 550px;
       display: flex;
       flex-direction: column;
       color: #ffffff;
@@ -211,8 +211,6 @@
   .footer__logo-container {
     width: 100%; }
   @media (max-width: 1024px) {
-    .footer__info {
-      margin-bottom: 100px !important; }
     .footer__logo-container {
       margin-bottom: 50px;
       width: 50%; }
@@ -263,7 +261,6 @@
 .footer__info {
   margin: auto;
   width: 80%;
-  height: 30vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

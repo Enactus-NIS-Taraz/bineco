@@ -82,12 +82,13 @@
       }
 
       &__container {
-        right: -650px;
-        width: 650px;
-        height: 740px;
+        right: -550px;
+        // width: 650px;
+        // height: 740px;
+        height: 100vh;
+        // width: auto;
         display: block;
         position: fixed;
-        height: 100vh;
         top: 0;
         // background-color: $color-1;
         background-image: url('../../assets/images/menu-background.png');
@@ -100,9 +101,11 @@
       .header__nav-bar {
         margin: auto;
         margin-top: 100px;
+        padding-right: 30px;
+        box-sizing: border-box;
         // margin-left: 70px;
         height: 600px;
-        width: 500px;
+        width: 550px;
         display: flex;
         flex-direction: column;
         color: #ffffff;
