@@ -23,8 +23,13 @@
     }
 
     @media(max-width: $size-1) {
+
         &__text-block {
-            width: 100%;
+            width: 100% !important;
+        }
+
+        &__description {
+            max-width: 100% !important;
         }
 
         &__image-container {

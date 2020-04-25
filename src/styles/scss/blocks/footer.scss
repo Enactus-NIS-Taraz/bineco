@@ -27,28 +27,32 @@
         }
 
         &__logo-image {
-            width: 50px !important;
-            height: 50px !important;
-            margin-top: 8px;
+            width: 40px !important;
+            height: 40px !important;
+            margin-top: 3px;
         }
 
         &__logo-text {
-            font-size: 60px !important;
+            font-size: 45px !important;
         }
 
         &__follow {
             margin-top: 80px;
             margin-bottom: 50px;
-            margin-right: 100px;
-            // width: 35%;
+            // margin-right: 100px;
+            width: 50%;
 
             &-heading {
-                font-size: 35px !important;
+                font-size: 30px !important;
             }
         }
 
+        &__icons-container {
+            width: 60% !important;
+        }
+
         &__icon {
-            font-size: 50px !important;
+            font-size: 45px !important;
         }
 
         &__nav-bar {
@@ -56,15 +60,106 @@
         }
 
         &__nav-link {
-            font-size: 35px !important;
+            font-size: 27px !important;
         }
 
-        &__contact-element {
-            font-size: 30px !important;
+        &__contact {
+
+            height: 220px !important;
+
+            &-element {
+                font-size: 23px !important;
+            }
         }
 
         &__corporation {
+            font-size: 20px !important;
+        }
+    }
+
+    @media(max-width: $size-2) {
+
+        &__follow {
+            margin-top: 30px;
+            margin-bottom: 50px;
+
+            &-heading {
+                font-size: 25px !important;
+            }
+        }
+
+        &__icons-container {
+            width: 65% !important;
+        }
+
+        &__icon {
+            font-size: 35px !important;
+        }
+
+        &__nav-link {
             font-size: 25px !important;
+        }
+
+        &__contact {
+
+            height: 220px !important;
+
+            &-element {
+                font-size: 20px !important;
+            }
+        }
+
+        &__corporation {
+            font-size: 15px !important;
+        }
+    }
+
+    @media(max-width: $size-4) {
+
+        &__logo-container {
+            width: auto !important;
+        }
+
+        &__info {
+            flex-direction: column !important;
+        }
+
+        &__follow {
+
+            width: 100%;
+
+            &-heading {
+                font-size: 20px !important;
+            }
+        }
+
+        &__icons-container {
+            width: 50% !important;
+        }
+
+        &__icon {
+            font-size: 30px !important;
+        }
+
+        &__nav-bar {
+            height: 180px !important;
+            margin-bottom: 10vh;
+        }
+
+        &__nav-link {
+            font-size: 20px !important;
+        }
+
+        &__contact {
+            height: 150px !important;
+
+            &-element {
+                font-size: 17px !important;
+            }
+        }
+
+        &__corporation {
+            font-size: 13px !important;
         }
     }
 }
@@ -188,7 +283,7 @@
 /* footer corporation info styles start */
 .footer__corporation {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10vh;
     width: 80%;
     font-size: 18px;
     color: #A1A3A6;

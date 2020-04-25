@@ -1,5 +1,5 @@
 .instruction {
-    padding: 20vh 0;
+    padding: 15vh 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -16,8 +16,30 @@
     }
 
     @media(max-width: $size-1) {
+        
         &__heading {
             font-size: 60px;
+        }
+    }
+
+    @media(max-width: $size-2) {
+
+        &__heading {
+            font-size: 45px;
+        }
+    }
+
+    @media(max-width: $size-3) {
+
+        &__heading {
+            font-size: 40px;
+        }
+    }
+
+    @media(max-width: $size-4) {
+
+        &__heading {
+            font-size: 7vw;
         }
     }
 }

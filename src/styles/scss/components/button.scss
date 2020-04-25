@@ -14,7 +14,12 @@
     }
 
     @media(max-width: $size-1) {
-        padding: 20px 35px;
-        font-size: 35px;
+        padding: 15px 25px;
+        font-size: 30px;
+    }
+
+    @media(max-width: $size-3) {
+        padding: 12px 17px;
+        font-size: 20px;
     }
 }

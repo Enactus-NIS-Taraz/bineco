@@ -9,7 +9,6 @@
     transition: 0.5s;
 
     &:hover {
-        height: auto;
 
         .card__part {
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
@@ -81,15 +80,24 @@
     }
 
     @media(max-width: $size-1) {
+
         margin-bottom: 5vh;
         width: 100%;
 
+        &:hover {
+            
+            .card__preview {
+                color: $color-1;
+                background-color: $color-4;
+            }
+        }
+
         &__part {
-            height: 300px;
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
         }
 
         &__preview {
+            height: 330px;
             border-radius: 20px 20px 0 0;
             transform: translateY(0);
 
@@ -103,15 +111,63 @@
         }
 
         &__info {
+            height: auto !important;
             transform: translateY(0);
 
             &-description {
                 font-size: 30px;
             }
         }
+
+        &__button {
+            margin-top: 2vh;
+        }
     }
 
-    // &__button {
+    @media(max-width: $size-3) {
 
-    // }
+        max-width: 450px;
+
+        &__preview {
+            height: 230px;
+
+            &-icon {
+                font-size: 100px;
+            }
+
+            &-heading {
+                font-size: 30px;
+            }
+        }
+
+        &__info {
+
+            &-description {
+                font-size: 20px;
+            }
+        }
+    }
+
+    @media(max-width: $size-4) {
+
+        &__preview {
+
+            height: 45vw;
+
+            &-icon {
+                font-size: 20vw;
+            }
+
+            &-heading {
+                font-size: 5vw;
+            }
+        }
+
+        &__info {
+
+            &-description {
+                font-size: 4vw;
+            }
+        }
+    }
 }
