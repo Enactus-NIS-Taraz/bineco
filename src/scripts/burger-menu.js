@@ -1,10 +1,16 @@
-document.getElementById("trigger").onclick = function() {open()};
+document.getElementById("trigger").addEventListener("click", () => open())
 
 function open() {
-    // document.getElementById('trigger__icon-menu').classList.remove('trigger__icon_active')
-    // document.getElementById('trigger__icon-cross').classList.add("trigger__icon_active")
+    moveMenu()
+    changeTriggerIcon()
+}
+
+function moveMenu() {
     document.getElementById("header__container").classList.toggle("show")
     document.getElementById("trigger").classList.toggle("trigger-move")
+}
+
+function changeTriggerIcon() {
     if(document.getElementById("trigger__icon-menu").classList.contains("trigger__icon_active")) {
         document.getElementById("trigger__icon-menu").classList.remove("trigger__icon_active")
         document.getElementById("trigger__icon-cross").classList.add("trigger__icon_active")

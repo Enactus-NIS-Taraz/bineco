@@ -24,7 +24,7 @@
         margin-top: 4vh;
     }
 
-    @media(max-width: $size-1) {
+    @media(max-width: $xl) {
         &__heading {
             width: 100%;
             font-size: 55px;
@@ -37,7 +37,7 @@
         }
     }
 
-    @media(max-width: $size-2) {
+    @media(max-width: $lg) {
 
         &__heading {
             font-size: 55px;
@@ -48,7 +48,7 @@
         }
     }
 
-    @media(max-width: $size-3) {
+    @media(max-width: $md) {
 
         &__heading {
             font-size: 45px;
@@ -59,7 +59,7 @@
         }
     }
 
-    @media(max-width: $size-4) {
+    @media(max-width: $sm) {
         
         &__heading {
             margin-bottom: 1vh;

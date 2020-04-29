@@ -6,7 +6,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    // background-color: $color-7;
 
     &__heading {
         margin-bottom: 10vh;
@@ -15,28 +14,28 @@
         text-decoration-line: underline;
     }
 
-    @media(max-width: $size-1) {
+    @media(max-width: $xl) {
         
         &__heading {
             font-size: 60px;
         }
     }
 
-    @media(max-width: $size-2) {
+    @media(max-width: $lg) {
 
         &__heading {
             font-size: 45px;
         }
     }
 
-    @media(max-width: $size-3) {
+    @media(max-width: $md) {
 
         &__heading {
             font-size: 40px;
         }
     }
 
-    @media(max-width: $size-4) {
+    @media(max-width: $sm) {
 
         &__heading {
             font-size: 7vw;

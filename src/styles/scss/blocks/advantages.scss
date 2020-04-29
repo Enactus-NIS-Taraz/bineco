@@ -12,7 +12,7 @@
         flex-wrap: wrap;
     }
 
-    @media(max-width: $size-1) {
+    @media(max-width: $xl) {
 
         &__container {
             padding: 0 10%;

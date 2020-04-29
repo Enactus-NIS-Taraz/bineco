@@ -42,7 +42,7 @@
         }
     }
 
-    @media(max-width: $size-1) {
+    @media(max-width: $xl) {
         justify-content: center;
 
         &__description {
@@ -68,7 +68,7 @@
         }
     }
 
-    @media(max-width: $size-2) {
+    @media(max-width: $lg) {
 
         margin-bottom: 3vh;
 
@@ -88,7 +88,7 @@
         }
     }
 
-    @media(max-width: $size-3) {
+    @media(max-width: $md) {
 
         margin-bottom: 6vh;
 
@@ -114,7 +114,7 @@
         }
     }
 
-    @media(max-width: $size-4) {
+    @media(max-width: $sm) {
 
         &__number {
             font-size: 25vw;

@@ -11,11 +11,10 @@
     background-color: #3C3C36;
 
     &__logo-container {
-        // margin: auto;
         width: 100%;
     }
 
-    @media(max-width: $size-1) {
+    @media(max-width: $xl) {
 
         &__info {
             height: auto !important;
@@ -39,7 +38,6 @@
         &__follow {
             margin-top: 80px;
             margin-bottom: 50px;
-            // margin-right: 100px;
             width: 50%;
 
             &-heading {
@@ -77,7 +75,7 @@
         }
     }
 
-    @media(max-width: $size-2) {
+    @media(max-width: $lg) {
 
         &__follow {
             margin-top: 30px;
@@ -114,7 +112,7 @@
         }
     }
 
-    @media(max-width: $size-4) {
+    @media(max-width: $sm) {
 
         &__logo-container {
             width: auto !important;

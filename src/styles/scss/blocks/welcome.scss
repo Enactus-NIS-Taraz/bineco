@@ -28,7 +28,7 @@
         width: 100%;
     }
 
-    @media (max-width: $size-1) {
+    @media (max-width: $xl) {
 
         background-position: 30% 5%;
 
@@ -45,7 +45,7 @@
         }
     }
 
-    @media(max-width: $size-2) {
+    @media(max-width: $lg) {
 
         &__text-block {
             padding-top: 25%;
@@ -54,7 +54,7 @@
         }
     }
 
-    @media(max-width: $size-4) {
+    @media(max-width: $sm) {
 
         &__text-block {
             padding-top: 40%;
