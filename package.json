@@ -1,0 +1,25 @@
+{
+  "name": "bineco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enactus-NIS-Taraz/bineco.git"
+  },
+  "author": "Azat kazhimukhan, Daniyar, Arslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enactus-NIS-Taraz/bineco/issues"
+  },
+  "homepage": "https://github.com/Enactus-NIS-Taraz/bineco#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1"
+  }
+}

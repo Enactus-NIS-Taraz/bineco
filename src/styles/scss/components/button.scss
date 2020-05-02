@@ -1,0 +1,25 @@
+.button {
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: $color-2;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        background-color: $color-3;
+    }
+
+    @media(max-width: $xl) {
+        padding: 15px 25px;
+        font-size: 30px;
+    }
+
+    @media(max-width: $md) {
+        padding: 12px 17px;
+        font-size: 20px;
+    }
+}

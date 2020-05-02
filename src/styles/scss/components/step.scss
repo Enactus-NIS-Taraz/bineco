@@ -1,0 +1,135 @@
+.step {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &__number {
+        font-size: 250px;
+        color: $color-2;
+    }
+
+    &__description {
+        margin: 0 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        &-line {
+            width: 40vw;
+            height: 7px;
+            background-color: $color-2;
+        }
+
+        &-main {
+            margin-bottom: 2vh;
+            max-width: 40vw;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 48px;
+            color: $color-1;
+        }
+
+        &-extra {
+            margin-top: 2vh;
+            max-width: 40vw;
+            font-size: 20px;
+            font-weight: normal;
+            color: $color-1;
+        }
+    }
+
+    @media(max-width: $xl) {
+        justify-content: center;
+
+        &__description {
+            width: 60%;
+
+            &-main {
+                max-width: 100% !important;
+                font-size: 50px;
+            }
+
+            &-extra {
+                max-width: 100% !important;
+                font-size: 30px;
+            }
+
+            &-line {
+                width: 100%;
+            }
+        }
+
+        &__image {
+            display: none;
+        }
+    }
+
+    @media(max-width: $lg) {
+
+        margin-bottom: 3vh;
+
+        &__number {
+            font-size: 180px;
+        }
+        
+        &__description {
+
+            &-main {
+                font-size: 40px;
+            }
+
+            &-extra {
+                font-size: 23px;
+            }
+        }
+    }
+
+    @media(max-width: $md) {
+
+        margin-bottom: 6vh;
+
+        &__number {
+            font-size: 130px;
+        }
+
+        &__description {
+
+            &-main {
+                margin-bottom: 0.5vh;
+                font-size: 30px;
+            }
+
+            &-extra {
+                margin-top: 0.5vh;
+                font-size: 19px;
+            }
+
+            &-line {
+                height: 4px;
+            }
+        }
+    }
+
+    @media(max-width: $sm) {
+
+        &__number {
+            font-size: 25vw;
+        }
+
+        &__description {
+
+            &-main {
+                font-size: 5vw;
+                line-height: 7vw;
+            }
+
+            &-extra {
+                font-size: 3.5vw;
+            }
+        }
+    }
+}
