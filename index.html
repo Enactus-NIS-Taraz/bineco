@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="src/assets/images/favicon.ico"
+      type="image/ico"
+    />
+    <script
+      src="https://kit.fontawesome.com/d125a684cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>BinEco - Автоматизированная Экология</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo logo">
+        <div class="logo__container">
+          <img
+            src="src/assets/images/logo__image.png"
+            alt="BinEco"
+            class="logo__image"
+          />
+          <div class="logo__text">BinEco</div>
+        </div>
+      </a>
+      <div id="trigger" class="trigger">
+        <i
+          class="fas fa-bars trigger__icon trigger__icon_active"
+          id="trigger__icon-menu"
+        ></i>
+        <i class="fas fa-times trigger__icon" id="trigger__icon-cross"></i>
+      </div>
+      <div id="header__container" class="header__container">
+        <nav id="header__nav-bar" class="header__nav-bar">
+          <a href="#" class="header__nav-component">Главная</a>
+          <a href="#" class="header__nav-component">Наша команда</a>
+          <a href="#" class="header__nav-component">О проекте</a>
+          <a href="#" class="header__nav-component">Цена</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="welcome">
+      <div class="welcome__text-block text-block">
+        <h1 class="text-block__heading welcome__text-block-heading">
+          Автоматизированная<br />
+          экология
+        </h1>
+        <p class="text-block__text welcome__text-block-text">
+          BinEco позволяет собирать данные,
+          <span class="welcome__text-bold">анализировать</span> тенденции и
+          <span class="welcome__text-bold">интегрировать</span> сложные
+          технологии в процесс сбора мусора
+        </p>
+        <a href="#" class="text-block__button button">Подробнее</a>
+      </div>
+      <div class="welcome__image-container">
+        <img
+          src="src/assets/images/welcome__image.png"
+          alt="Автоматизированная экология"
+          class="welcome__image"
+        />
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="advantages__container">
+        <div class="advantages-card card">
+          <div class="card__preview card__part">
+            <div class="card__preview-icon"><i class="fas fa-cogs"></i></div>
+            <h3 class="card__preview-heading">Простота в внедрении</h3>
+          </div>
+          <div class="card__info card__part">
+            <p class="card__info-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut illo
+              nobis similique magnam, architecto harum dicta, cum ducimus quo
+              deleniti quae quis quia veritatis at ad nam ullam? Facilis,
+              tempore?
+            </p>
+            <a href="#" class="card__button button">Подробнее</a>
+          </div>
+        </div>
+        <div class="advantages-card card">
+          <div class="card__preview card__part">
+            <div class="card__preview-icon"><i class="fas fa-tags"></i></div>
+            <h3 class="card__preview-heading">Доступность</h3>
+          </div>
+          <div class="card__info card__part">
+            <p class="card__info-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
+              deserunt blanditiis sed voluptatibus harum molestiae asperiores
+              tempore, illum ratione at labore provident eum quis minus quod?
+              Eum inventore quas atque.
+            </p>
+            <a href="#" class="card__button button">Подробнее</a>
+          </div>
+        </div>
+        <div class="advantages-card card">
+          <div class="card__preview card__part">
+            <div class="card__preview-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3 class="card__preview-heading">Экологичность</h3>
+          </div>
+          <div class="card__info card__part">
+            <p class="card__info-description">
+              Lorem ipsum, dolor sit amet elit. Magnam facere consequuntur
+              maiores tempora, architecto ab consectetur totam aperiam inventore
+              quis provident quod, odit dignissimos voluptatibus eum explicabo
+              officiis debitis sapiente.
+            </p>
+            <a href="#" class="card__button button">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="online-tracking">
+      <div class="online-tracking__image-container">
+        <img
+          class="online-tracking__image"
+          src="src/assets/images/online-tracking.png"
+          alt="online-tracking"
+        />
+      </div>
+      <div class="online-tracking__text-block text-block">
+        <h1 class="text-block__heading">Отслеживай с нами online</h1>
+        <p class="online-tracking__description text-block__text">
+          Система BinEco Online позволяет в реальном времени наблюдать за
+          изменениями данных и с легкостью интегрировать сторонние сервисы.
+          Повседневная практика показывает, что начало работы по формированию
+          позиции требуют определения.
+        </p>
+        <a href="#" class="text-block__button button">BinEco Online</a>
+      </div>
+    </section>
+
+    <section class="instruction">
+      <h2 class="instruction__heading">Как это работает?</h2>
+      <div class="instuction__step step">
+        <div class="step__number">1</div>
+        <div class="step__description">
+          <div class="step__description-main">Зарегистрируйтесь в системе</div>
+          <div class="step__description-line"></div>
+          <div class="step__description-extra">
+            Создайте учетную запись в системе за несколько минут
+          </div>
+        </div>
+        <img
+          src="src/assets/images/step1.png"
+          alt="Зарегистрируйтесь в системе"
+          class="step__image"
+        />
+      </div>
+      <div class="instuction__step step">
+        <div class="step__number">2</div>
+        <div class="step__description">
+          <div class="step__description-main">Установка устройства</div>
+          <div class="step__description-line"></div>
+          <div class="step__description-extra">
+            В ближайшие дни мы установим BinEco на вашие мусорные баки
+          </div>
+        </div>
+        <img
+          src="src/assets/images/step2.png"
+          alt="Зарегистрируйтесь в системе"
+          class="step__image"
+        />
+      </div>
+      <div class="instuction__step step">
+        <div class="step__number">3</div>
+        <div class="step__description">
+          <div class="step__description-main">
+            Подключитесь к своему аккаунту
+          </div>
+          <div class="step__description-line"></div>
+          <div class="step__description-extra">
+            Теперь вы можете с помощью своего аккаунта в онлайн режиме следить
+            за уровнем заполнения
+          </div>
+        </div>
+        <img
+          src="src/assets/images/step3.png"
+          alt="Зарегистрируйтесь в системе"
+          class="step__image"
+        />
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__info">
+        <div class="footer__logo-container">
+          <a href="#" class="footer__logo-link logo-link">
+            <div class="footer__logo logo">
+              <img
+                src="src/assets/images/logo__image.png"
+                alt="BinEco"
+                class="footer__logo-image logo-image"
+              />
+              <h1 class="footer__logo-text logo-text">BinEco</h1>
+            </div>
+          </a>
+        </div>
+        <div class="footer__follow">
+          <h4 class="footer__follow-heading">Следи за нами:</h4>
+          <div class="footer__icons-container">
+            <a href="#" class="footer__icon-link"
+              ><div class="footer__icon"><i class="fab fa-instagram"></i></div
+            ></a>
+            <a href="#" class="footer__icon-link"
+              ><div class="footer__icon"><i class="fab fa-youtube"></i></div
+            ></a>
+            <a href="#" class="footer__icon-link"
+              ><div class="footer__icon"><i class="fab fa-telegram"></i></div
+            ></a>
+          </div>
+        </div>
+        <div class="footer__nav-bar">
+          <a href="#" class="footer__nav-link">о проекте</a>
+          <a href="#" class="footer__nav-link">цена</a>
+          <a href="#" class="footer__nav-link">binEco online</a>
+          <a href="#" class="footer__nav-link">помощь</a>
+        </div>
+        <div class="footer__contact">
+          <div class="footer__contact-element">
+            Brightscout, Inc.<br />
+            600 Congress Ave., Austin,<br />
+            TX 78701
+          </div>
+          <div class="footer__contact-element">Office: (512) 298-2593</div>
+          <div class="footer__contact-element">
+            Join Our Team:<br />
+            careers@brightscout.com
+          </div>
+        </div>
+      </div>
+      <div class="footer__corporation">
+        © 2020 Ramp Business Corporation. “Ramp,” "Ramp Financial" and the Ramp
+        logo are trademarks of the company. The Ramp Visa® Commercial Card is
+        issued by Sutton Bank, Member FDIC. Terms and conditions apply. Please
+        visit our Terms of Service for more details.
+      </div>
+    </section>
+
+    <script src="src/scripts/burger-menu.js"></script>
+  </body>
+</html>
