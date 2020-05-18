@@ -1,0 +1,64 @@
+.welcome {
+    padding: 0 10%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../assets/images/elipses.png');
+    background-repeat: no-repeat;
+    background-position: 15% 10%;
+
+    &__text-bold {
+        font-weight: bold;
+    }
+
+    &__image-container {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    @media (max-width: $xl) {
+
+        background-position: 30% 5%;
+
+        &__text-block {
+            width: 100%;
+            height: 100%;
+            background-image: url('../../assets/images/welcome__image.png');
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        &__image-container {
+            display: none;
+        }
+    }
+
+    @media(max-width: $lg) {
+
+        &__text-block {
+            padding-top: 25%;
+            box-sizing: border-box;
+            justify-content: flex-start !important;
+        }
+    }
+
+    @media(max-width: $sm) {
+
+        &__text-block {
+            padding-top: 40%;
+            background-size: 80%;
+        }
+    }
+}
