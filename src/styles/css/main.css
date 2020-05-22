@@ -456,6 +456,9 @@
     font-weight: normal;
     line-height: 30px;
     color: #3C3C36; }
+    .text-block__tagline {
+      font-size: 20px;
+      color: #3C3C36; }
   .text-block__button {
     margin-top: 4vh; }
   @media (max-width: 1330px) {
@@ -475,13 +478,17 @@
     .text-block__heading {
       font-size: 45px; }
     .text-block__text {
-      font-size: 20px; } }
+      font-size: 20px; }
+    .text-block__tagline {
+      font-size: 18px; } }
   @media (max-width: 620px) {
     .text-block__heading {
       margin-bottom: 1vh;
       font-size: 7vw; }
     .text-block__text {
       max-width: 400px;
+      font-size: 4vw; }
+    .text-block__tagline {
       font-size: 4vw; } }
 
 .button {
